@@ -1,5 +1,5 @@
 import { assert } from "chai";
-import { isSquare }  from '../aSquareOfSquares.js'
+import { bestPracticIsSquare as isSquare }  from '../aSquareOfSquares.js'
 
 describe("A Square Of Squares", function () {
   it("should work for some examples", function () {

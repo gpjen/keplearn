@@ -14,3 +14,8 @@ export function isSquare(n) {
   const sqrt = Math.sqrt(n);
   return Number.isInteger(sqrt);
 }
+
+
+export function bestPracticIsSquare(n) {
+    return Math.sqrt(n) % 1 === 0;
+}
