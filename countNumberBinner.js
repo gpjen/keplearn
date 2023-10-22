@@ -3,7 +3,7 @@ export function countBits(n) {
     // Pregram Me
     const numberString = n.toString(2);
 
-    return (numberString.match(/1/g) || 0).length;
+    return (numberString.match(/1/g) || []).length;
   }
   return 0;
 }
